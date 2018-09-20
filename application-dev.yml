@@ -14,7 +14,7 @@ spring:
     auto: true
   rabbitmq:
     host: localhost
-    port: 32771
+    port: 32774
     username: guest
     password: guest
   redis:
@@ -39,9 +39,9 @@ spring:
         login-username: admin
         login-password: admin
   mail:
-    host: smtp.163.com
-    username: paascloudTest@163.com
-    password: a123456
+    host: smtp.ym.163.com
+    username: davidchen@winwintech.cn
+    password: cdw76412
     port: 465
     protocol: smtp
     test-connection: false
