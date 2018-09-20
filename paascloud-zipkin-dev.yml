@@ -12,7 +12,7 @@ spring:
 zipkin:
   collector:
     rabbitmq:
-      addresses: localhost:32776
+      addresses: localhost:32774
       username: guest
       password: guest
       queue: zipkin
