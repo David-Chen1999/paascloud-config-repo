@@ -14,7 +14,7 @@ spring:
     auto: true
   rabbitmq:
     host: localhost
-    port: 32771
+    port: 32774
     username: guest
     password: guest
   redis:
