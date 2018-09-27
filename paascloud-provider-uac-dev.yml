@@ -48,11 +48,11 @@ paascloud:
       enable: true
       reliableMessageConsumer: false
       reliableMessageProducer: true
-      instanceName: paascloud-provider-uac
+      instanceName: localhost:32773
       consumerGroup: CID_UAC
       producerGroup: PID_UAC
   auth:
-    rest-pwd-url: http://dev-login.paascloud.net/resetPwd?resetPwdKey=
+    rest-pwd-url: http://localhost:7979/resetPwd?resetPwdKey=
     active-user-url: http://localhost:7979/uac/auth/activeUser/
     refresh-token-url: http://localhost:7979/uac/oauth/token
   token:
