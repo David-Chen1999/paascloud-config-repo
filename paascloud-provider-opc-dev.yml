@@ -58,7 +58,7 @@ paascloud:
     interceptor:
       enable: true
   zk:
-    zkAddressList: localhost:32779
+    zkAddressList: 192.168.31.220:32775
   qiniu:
     key:
       accessKey: yourQiniuAccessKey
