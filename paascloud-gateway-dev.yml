@@ -8,7 +8,10 @@ spring:
       enabled: true
       max-request-size: 50MB
       max-file-size: 50MB
-
+  datasource:
+    url: jdbc:mysql://192.168.31.220:33060/paascloud_gateway?characterEncoding=utf8&useSSL=false
+    username: root
+    password: Dcdw76412
 zuul:
   host:
     socket-timeout-millis: 60000
