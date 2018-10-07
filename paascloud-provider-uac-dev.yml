@@ -46,7 +46,7 @@ paascloud:
   aliyun:
     rocketMq:
       enable: true
-      reliableMessageConsumer: false
+      reliableMessageConsumer: true
       reliableMessageProducer: true
       namesrvAddr: 192.168.31.220:32769
       consumerGroup: CID_UAC
