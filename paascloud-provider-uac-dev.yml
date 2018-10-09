@@ -48,7 +48,7 @@ paascloud:
       enable: true
       reliableMessageConsumer: true
       reliableMessageProducer: true
-      namesrvAddr: 192.168.31.220:32769
+      namesrvAddr: 192.168.31.220:9876
       consumerGroup: CID_UAC
       producerGroup: PID_UAC
   auth:
