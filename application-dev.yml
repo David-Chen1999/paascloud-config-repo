@@ -13,12 +13,12 @@ spring:
     proxy-target-class: true
     auto: true
   rabbitmq:
-    host: 170.10.10.133
+    host: 192.168.31.220
     port: 56720
     username: guest
     password: guest
   redis:
-    host: 170.10.10.133
+    host: 192.168.31.220
     password: 
     port: 32772
     timeout: 0
@@ -114,7 +114,7 @@ paascloud:
       accessKeyId: 'your aliyun accessKeyId'
       accessKeySecret: 'your aliyun accessKeySecret'
     rocketMq:
-      namesrvAddr: 170.10.10.133:9876
+      namesrvAddr: 192.168.31.220:9876
     sms:
       signName: 快乐学习网
       regionId: cn-beijing
@@ -136,4 +136,4 @@ paascloud:
       pcPath: /data/file/qrCode/alipay
       qiniuPath: alipay/QRCode/
   zk:
-    zkAddressList: 170.10.10.133:32775
+    zkAddressList: 192.168.31.220:32775
